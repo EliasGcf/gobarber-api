@@ -6,3 +6,4 @@ coverage
 
 tmp/*
 !tmp/.gitkeep
+.DS_Store
