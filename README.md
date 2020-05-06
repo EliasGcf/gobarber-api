@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Express Application for GoBarber Web App
+  Express Application for GoBarber application
 </h3>
 
 <p align="center">The best way to schedule your service!</p>
