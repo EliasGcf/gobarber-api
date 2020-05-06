@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Express Application for GoBarber application
+  Express Application for GoBarber project
 </h3>
 
 <p align="center">The best way to schedule your service!</p>
@@ -113,7 +113,7 @@ $ yarn dev:server
 
 ## 🤔 How to contribute
 
-- **Make a fork of this repository**
+**Make a fork of this repository**
 
 ```bash
 # Fork using GitHub official command line
@@ -121,6 +121,8 @@ $ yarn dev:server
 
 $ gh repo fork EliasGcf/gobarber-api
 ```
+
+**Follow the steps below**
 
 ```bash
 # Clone your fork
