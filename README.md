@@ -53,7 +53,7 @@ To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/E
 
 ## 🚀 Technologies
 
-Technologies that i used to develop this api
+Technologies that I used to develop this api
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
