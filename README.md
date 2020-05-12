@@ -42,9 +42,9 @@
 
 ## 💇🏻‍♂️ About the project
 
-This API provides everything is necessary to manage all appointments of the barber and your clients.
+This api provides everything needed to organize appointments between the barbers and customers.
 
-Clients can schedule the best hour for them, if that are available.
+Customers can choose the best time available to them.
 
 Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
 
@@ -53,7 +53,7 @@ To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/E
 
 ## 🚀 Technologies
 
-Technologies what I used to desenvolve this api
+Technologies that I used to develop this api
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
