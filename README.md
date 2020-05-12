@@ -102,6 +102,9 @@ $ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
               -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
               -p 5432:5432 -d postgres
 
+# Create the instance of mongoDB using docker
+$ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
+
 # Make sure the keys in 'ormconfig.json' to connect with your database
 # are set up correctly.
 
