@@ -17,5 +17,11 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "exclude": [
+    "commitlint.config.js",
+    "coverage",
+    "jest.config.js",
+    "prettier.config.js"
+  ]
 }
