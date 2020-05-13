@@ -105,6 +105,9 @@ $ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
 # Create the instance of mongoDB using docker
 $ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
 
+# Create the instance of redis using docker
+$ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
+
 # Make sure the keys in 'ormconfig.json' to connect with your database
 # are set up correctly.
 
