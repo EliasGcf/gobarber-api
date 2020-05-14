@@ -99,7 +99,7 @@ $ yarn
 
 # Make a copy of '.env.example' to '.env'
 # and set with YOUR environment variables.
-# The aws variables do not need to be filled
+# The aws variables do not need to be filled for dev environment
 $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
