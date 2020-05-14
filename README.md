@@ -98,8 +98,8 @@ $ git clone https://github.com/EliasGcf/gobarber-api.git && cd gobarber-api
 $ yarn
 
 # Make a copy of '.env.example' to '.env'
-# and set with YOUR environment variables
-# the aws variables do not need to be filled
+# and set with YOUR environment variables.
+# The aws variables do not need to be filled
 $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
