@@ -6,9 +6,8 @@
   "scripts": {
     "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./dist",
     "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpileOnly --ignore-watch node_modules src/shared/infra/http/server.ts",
-    "start": "ts-node -r tsconfig-paths/register src/shared/infra/http/server.ts",
+    "start": "node dist/shared/infra/http/server.js",
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
-    "resetDatabase": "ts-node-dev ./node_modules/typeorm/cli.js query 'DROP TABLE IF EXISTS appointments, users, migrations' && ts-node-dev ./node_modules/typeorm/cli.js migration:run",
     "test": "jest"
   },
   "dependencies": {
