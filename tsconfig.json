@@ -20,6 +20,7 @@
   },
   "exclude": [
     "commitlint.config.js",
+    "ormconfig.js",
     "coverage",
     "jest.config.js",
     "prettier.config.js",
