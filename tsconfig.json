@@ -19,12 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "removeComments": true
   },
-  "exclude": [
-    "commitlint.config.js",
-    "ormconfig.js",
-    "coverage",
-    "jest.config.js",
-    "prettier.config.js",
-    "dist"
+  "include": [
+    "src/**/*"
   ]
 }
