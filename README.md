@@ -113,11 +113,6 @@ $ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
 # Create the instance of redis using docker
 $ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
 
-# Make a copy of 'ormconfig.example.json' to 'ormconfig.json'
-# and set the values, if they are not filled,
-# to connect with docker database containers
-$ cp ormconfig.example.json ormconfig.json
-
 # Once the services are running, run the migrations
 $ yarn typeorm migration:run
 
