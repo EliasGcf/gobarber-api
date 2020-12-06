@@ -4,7 +4,7 @@ import { container } from 'tsyringe';
 import CreateAppointmentService from '@modules/appointments/services/CreateAppointmentService';
 
 export default class AppointmentsController {
-  public async craete(req: Request, res: Response): Promise<Response> {
+  public async create(req: Request, res: Response): Promise<Response> {
     const user_id = req.user.id;
     const { provider_id, date } = req.body;
 
